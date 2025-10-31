@@ -1,0 +1,110 @@
+[2025-10-29 23:49:14] ls -l
+[2025-10-29 23:49:45] ls 
+[2025-10-29 23:50:55] ls main.py
+[2025-10-29 23:51:01] ERROR: path not found (a)
+[2025-10-29 23:53:25] ls -l
+[2025-10-29 23:53:30] ERROR: path not found (a)
+[2025-10-29 23:53:32] ls 
+[2025-10-29 23:54:01] ls 
+[2025-10-29 23:54:05] ls -l
+[2025-10-29 23:54:20] ls -l
+[2025-10-30 06:51:09] ls main.py
+[2025-10-30 07:00:50] ls -l
+[2025-10-30 08:29:10] ls -l
+[2025-10-30 08:42:46] cd ~
+[2025-10-30 08:47:19] cd ~
+[2025-10-30 08:47:26] ERROR: path not found (main)
+[2025-10-30 10:47:14] cat main.py
+[2025-10-30 10:47:24] ERROR: file not found (d)
+[2025-10-30 10:47:28] ERROR: file not found (Yeezy)
+[2025-10-30 12:35:43] ERROR: cp — not enough arguments
+[2025-10-30 14:29:20] mv main.py MAIN.py
+[2025-10-30 14:29:30] ls 
+[2025-10-30 14:30:11] ls -l
+[2025-10-30 19:41:58] mv MAIN.py BIATCH.py
+[2025-10-30 19:42:13] ls 
+[2025-10-30 19:42:45] mv BIATCH.py main.py
+[2025-10-31 00:00:12] cd src
+[2025-10-31 00:00:15] ls -l
+[2025-10-31 00:00:30] ERROR: path not found (python-lab2)
+[2025-10-31 00:11:22] cd /Users/aleksandr/Desktop/python-lab2/src
+[2025-10-31 00:11:28] ls 
+[2025-10-31 00:11:41] ls -l
+[2025-10-31 00:11:53] cat main.py
+[2025-10-31 00:12:20] cp main.py ILLEST_MOTHERFUCKER_ALIIIVE.py
+[2025-10-31 00:12:47] ls -l
+[2025-10-31 00:13:07] cp ILLEST_MOTHERFUCKER_ALIIIVE.py main.py
+[2025-10-31 00:14:30] ls 
+[2025-10-31 00:15:10] rm ILLEST_MOTHERFUCKER_ALIIIVE.py
+[2025-10-31 00:15:20] ls 
+[2025-10-31 00:35:15] ls 
+[2025-10-31 00:35:22] ls -l
+[2025-10-31 00:35:26] ls 
+[2025-10-31 00:55:10] ls 
+[2025-10-31 00:55:19] ls -l
+[2025-10-31 00:56:04] ls -l
+[2025-10-31 01:00:08] ls 
+[2025-10-31 01:00:18] ls -l
+[2025-10-31 01:00:23] ls -l
+[2025-10-31 01:00:38] ERROR: source not found (main.py)
+[2025-10-31 01:00:44] ERROR: source not found (main)
+[2025-10-31 01:01:31] ERROR: path not found (/Users/aleksandr/python-lab2)
+[2025-10-31 01:02:52] cd src
+[2025-10-31 01:02:57] ls 
+[2025-10-31 01:03:18] mv main.py HAM.py
+[2025-10-31 01:05:08] ls 
+[2025-10-31 01:05:30] ERROR: path not found (python-lab2)
+[2025-10-31 01:05:41] cd /Users/aleksandr/Desktop/python-lab2
+[2025-10-31 01:05:44] ls 
+[2025-10-31 01:06:12] ls 
+[2025-10-31 01:06:31] cd src
+[2025-10-31 01:06:32] ls 
+[2025-10-31 01:07:50] ls 
+[2025-10-31 01:07:57] cd
+[2025-10-31 01:14:40] ls 
+[2025-10-31 01:15:00] ERROR: cat — no file specified
+[2025-10-31 01:32:51] ls 
+[2025-10-31 01:33:09] ls 
+[2025-10-31 01:33:27] cd src
+[2025-10-31 01:33:32] cat main.py
+[2025-10-31 15:41:55] ls 
+[2025-10-31 16:11:21] ls 
+[2025-10-31 16:12:24] ls 
+[2025-10-31 16:32:50] ls 
+[2025-10-31 17:27:18] ls 
+[2025-10-31 17:28:02] ERROR: path not found (f)
+[2025-10-31 17:30:22] ERROR: path not found (f)
+[2025-10-31 17:33:04] ERROR: path not found (main.py)
+[2025-10-31 17:33:26] ls 
+[2025-10-31 17:33:33] cd src
+[2025-10-31 17:33:43] ERROR: not a directory (main.py)
+[2025-10-31 17:34:42] ERROR: file not found (main.py)
+[2025-10-31 17:34:49] ls 
+[2025-10-31 17:35:00] cd src
+[2025-10-31 17:35:04] cat main.py
+[2025-10-31 17:42:09] ERROR: unknown command python3
+[2025-10-31 17:42:22] ERROR: path not found (/__nope__)
+[2025-10-31 17:45:47] ls -l
+[2025-10-31 18:34:58] ls 
+[2025-10-31 18:35:07] ERROR: path not found (l)
+[2025-10-31 18:35:17] ERROR: path not found (l)
+[2025-10-31 19:09:22] ls 
+[2025-10-31 19:09:24] ls -l
+[2025-10-31 19:09:28] cd src
+[2025-10-31 19:16:28] ERROR: unknown command ды
+[2025-10-31 19:16:29] ls 
+[2025-10-31 19:16:40] ERROR: not a directory (main.py)
+[2025-10-31 19:17:23] ERROR: mv — missing arguments
+[2025-10-31 19:19:53] ERROR: path not found (src/main.py)
+[2025-10-31 19:21:34] ERROR: path not found (src)
+[2025-10-31 19:21:41] ls main.py
+[2025-10-31 19:21:41] ERROR: ls failed ([Errno 20] Not a directory: 'main.py')
+[2025-10-31 19:21:51] ls ../shell.log
+[2025-10-31 19:21:51] ERROR: ls failed ([Errno 20] Not a directory: '../shell.log')
+[2025-10-31 19:36:13] cd src
+[2025-10-31 19:36:23] ls main.py
+[2025-10-31 20:03:59] ls 
+[2025-10-31 22:32:03] ls /Users/aleksandr/Desktop/python-lab2/src -l
+[2025-10-31 23:02:43] ls 
+[2025-10-31 23:11:49] ls -l
+[2025-10-31 23:12:01] ERROR: path not found (src)

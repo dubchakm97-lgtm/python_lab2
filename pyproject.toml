@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "python-lab2"
+version = "0.1.0"
+description = "Учебный мини-эмулятор shell (ls, cd, cat, cp, mv, rm) с логированием."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Student" }]
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[project.scripts]
+mini-shell = "main:main"
+
+[dependency-groups]
+dev = ["pre-commit>=3.7.0", "ruff>=0.6.9"]
