@@ -4,7 +4,7 @@ import src.cat as mod_cat
 import os
 
 class TestCat:
-    def test_cat_prints_file_content(self, capsys):
+    def test_cat_prints_file(self, capsys):
         destination = "/file.txt"
 
         m_path = Mock(spec=os.path)
@@ -19,7 +19,7 @@ class TestCat:
         out = capsys.readouterr().out
         assert "HELLO" in out
 
-    def test_cat_nonex_raises(self):
+    def test_cat_do_not_exist_(self):
         destination = "/missing.txt"
 
         m_path = Mock(spec=os.path)
@@ -31,7 +31,7 @@ class TestCat:
             with pytest.raises(FileNotFoundError):
                 mod_cat.cat([destination])
 
-    def test_cat_path_is_directory_raises(self):
+    def test_cat_path_is_directory(self):
         m_path = Mock(spec=os.path)
         m_path.expanduser.side_effect = lambda p: p
         m_path.exists.return_value = True
@@ -42,7 +42,7 @@ class TestCat:
                 mod_cat.cat([])
             assert "Не указан файл" in str(er.value)
 
-    def test_cat_directory_path_raises(self):
+    def test_cat_directory_path(self):
         dir_path = "/some_ye"
 
         m_path = Mock(spec=os.path)

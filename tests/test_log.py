@@ -2,7 +2,7 @@ import log
 from log import log_message
 
 class TestLog:
-    def test_log_writes_line(self):
+    def test_log_writes(self):
         log_message("one")
         text = log.LOG_FILE.read_text(encoding="utf-8").strip()
         assert text.startswith("[")
@@ -16,7 +16,7 @@ class TestLog:
         assert lines[-2].endswith(" first")
         assert lines[-1].endswith(" second")
 
-    def test_log_utf8(self):
+    def test_log(self):
         msg = "привет"
         log_message(msg)
         content = log.LOG_FILE.read_text(encoding="utf-8")

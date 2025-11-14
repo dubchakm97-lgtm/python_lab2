@@ -3,7 +3,7 @@ from unittest.mock import Mock, patch
 import src.cp as mod_cp
 
 class TestCp:
-    def test_cp_file_to_file(self):
+    def test_cp_file_file(self):
         src = Mock(); src.expanduser.return_value = src; src.exists.return_value = True; src.is_dir.return_value = False
         dst = Mock(); dst.expanduser.return_value = dst
         with patch.object(mod_cp.pathlib, "Path", side_effect=[src, dst]), \
@@ -12,7 +12,7 @@ class TestCp:
         m_copy2.assert_called_once_with(src, dst)
         assert any("Скопировано" in str(c.args) for c in m_print.call_args_list)
 
-    def test_cp_file_into_dir(self):
+    def test_cp_file_dir(self):
         src = Mock(); src.expanduser.return_value = src; src.exists.return_value = True; src.is_dir.return_value = False
         dst = Mock(); dst.expanduser.return_value = dst
         with patch.object(mod_cp.pathlib, "Path", side_effect=[src, dst]), \
@@ -21,14 +21,14 @@ class TestCp:
         m_copy2.assert_called_once_with(src, dst)
         assert any("Скопировано" in str(c.args) for c in m_print.call_args_list)
 
-    def test_cp_missing_source(self):
+    def test_cp_not_source(self):
         src = Mock(); src.expanduser.return_value = src; src.exists.return_value = False
         dst = Mock(); dst.expanduser.return_value = dst
         with patch.object(mod_cp.pathlib, "Path", side_effect=[src, dst]):
             with pytest.raises(FileNotFoundError):
                 mod_cp.cp(["nope.txt", "b.txt"])
 
-    def test_cp_dir_without_r(self):
+    def test_cp_dir_withaut_r(self):
         src = Mock(); src.expanduser.return_value = src; src.exists.return_value = True; src.is_dir.return_value = True
         dst = Mock(); dst.expanduser.return_value = dst
         with patch.object(mod_cp.pathlib, "Path", side_effect=[src, dst]):
