@@ -40,7 +40,7 @@ class TestCat:
         with patch.object(mod_cat.os, "path", m_path):
             with pytest.raises(ValueError) as er:
                 mod_cat.cat([])
-            assert "не указан файл" in str(er.value)
+            assert "Не указан файл" in str(er.value)
 
     def test_cat_directory_path_raises(self):
         dir_path = "/some_ye"
