@@ -1,23 +1,25 @@
-from pathlib import Path
+import os
 import sys
+from pathlib import Path
 import pytest
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SRC = PROJECT_ROOT / "src"
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 @pytest.fixture(autouse=True)
-def _setup_env(monkeypatch, tmp_path):
+def _isolate_fs_and_log(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
     import log
     monkeypatch.setattr(log, "LOG_FILE", tmp_path / "shell.log")
-    monkeypatch.chdir(tmp_path)
 
 @pytest.fixture
 def fake_home(monkeypatch, tmp_path):
-    import os
-    monkeypatch.setattr(os.path, "expanduser", lambda p: str(tmp_path) if p == "~" else p)
-    return tmp_path
+    home = tmp_path / "home"
+    home.mkdir()
+    monkeypatch.setattr(os.path, "expanduser", lambda p: str(home) if p == "~" else p)
+    return home
 
 @pytest.fixture
 def fake_input(monkeypatch):
