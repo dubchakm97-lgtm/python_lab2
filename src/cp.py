@@ -18,22 +18,27 @@ def cp(args: list[str]) -> None:
             arg.append(a)
     if len(arg) != 2:
         log_message("ERROR: cp — not enough arguments")
-        raise ValueError("Ошибка: нужно указать источник и назначение")
-    source = pathlib.Path(arg[0]).expanduser()
-    direction = pathlib.Path(arg[1]).expanduser()
+        raise ValueError("Нужно указать источник и назначение")
+    source = pathlib.Path(arg[0]).expanduser().resolve()
+    direction = pathlib.Path(arg[1]).expanduser().resolve()
     if not source.exists():
         log_message(f"ERROR: cp — source not found ({source})")
-        raise FileNotFoundError("Ошибка! Источник не найден!")
+        raise FileNotFoundError("Источник не найден!")
     try:
         if source.is_dir():
             if pointer == 0:
-                log_message(f'ERROR: use -r to copy folder')
-                raise IsADirectoryError('Ошибка! Используйте -r для копирования папки')
-            shutil.copytree(source, direction, dirs_exist_ok=True)
+                log_message('ERROR: use -r to copy folder')
+                raise IsADirectoryError('Используйте -r для копирования папки')
+            if direction.exists() and direction.is_dir():
+                real_dst = direction / source.name
+            else:
+                real_dst = direction
+            shutil.copytree(source, real_dst, dirs_exist_ok=True)
+            log_message(f"cp -r '{source}' '{real_dst}'")
         else:
             shutil.copy2(source, direction)
+            log_message(f"cp '{source}' '{direction}'")
         print(f"Скопировано: {source} → {direction}")
-        log_message(f"cp {source} {direction}")
     except Exception as e:
         log_message(f"ERROR: cp failed ({e})")
         raise

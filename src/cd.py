@@ -19,7 +19,7 @@ def cd(args: list[str]) -> None:
         raise FileNotFoundError("Такой папки не существует")
     if not os.path.isdir(path):
         log_message(f"ERROR: not a directory ({path})")
-        raise NotADirectoryError("Ошибка: это не директория")
+        raise NotADirectoryError("Это не директория")
 
     try:
         os.chdir(path)

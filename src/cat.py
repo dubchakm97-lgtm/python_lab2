@@ -10,14 +10,14 @@ def cat(args: list[str]) -> None:
     """
     if not args:
         log_message(f'ERROR: cat — no file specified')
-        raise ValueError('Ошибка! Не указан файл!')
+        raise ValueError('Не указан файл!')
     path = os.path.expanduser(args[0])
     if os.path.exists(path) == False:
         log_message(f"ERROR: file not found ({path})")
-        raise FileNotFoundError('Ошибка! Такого файла не существует!')
+        raise FileNotFoundError('Такого файла не существует!')
     if os.path.isfile(path) == False:
         log_message(f"ERROR: not a file ({path})")
-        raise IsADirectoryError("Ошибка! это не файл!")
+        raise IsADirectoryError("Это не файл!")
     try:
         with open(path, "r", encoding="utf-8") as f:
             print(f.read())
