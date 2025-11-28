@@ -5,6 +5,11 @@ from log import log_message
 
 
 def zip_folder(args: list[str]) -> None:
+    """
+    Создает zip-архив указываемой папки
+    :param args: список из двух элементов: название папки, название создаваемого архива
+    :return: None
+    """
     if len(args) != 2:
         log_message('ERROR: not enough arguments')
         raise ValueError('Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>"')
@@ -41,6 +46,11 @@ def zip_folder(args: list[str]) -> None:
 
 
 def unzip_file(args: list[str]) -> None:
+    """
+    Распаковывает zip-архив
+    :param args: название zip-архива в текущей директории
+    :return: None
+    """
     if len(args) != 1:
         log_message('ERROR: inappropriate number of unzip arguments')
         raise ValueError('В качестве аргумента к команде unzip укажите только файл для разархивирования')
@@ -68,6 +78,11 @@ def unzip_file(args: list[str]) -> None:
 
 
 def tar_folder(args: list[str]) -> None:
+    """
+    Создает tar.gz-архив указываемой папки
+    :param args: список из двух элементов: название папки, название создаваемого архива
+    :return: None
+    """
     if len(args) != 2:
         log_message('ERROR: not enough arguments')
         raise ValueError('Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>"')
@@ -103,6 +118,11 @@ def tar_folder(args: list[str]) -> None:
 
 
 def untar_file(args: list[str]) -> None:
+    """
+    Распаковывает tar.gz-архив
+    :param args: название tar.gz-архива в текущей директории
+    :return: None
+    """
     if len(args) != 1:
         log_message('ERROR: inappropriate number of untar arguments')
         raise ValueError('В качестве аргумента к команде untar укажите только файл для разархивирования')

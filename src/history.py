@@ -4,6 +4,12 @@ from pathlib import Path
 HISTORY_FILE = Path(__file__).resolve().parents[1] / '.history.txt'
 
 def history(args: list[str]) -> None:
+    """
+    Выводит последние напечатанные команды из .history.txt, куда записываются
+    все команды, вводимые с клавиатуры
+    :param args: количество выводимых команд
+    :return: None
+    """
     if len(args) != 1:
         log_message('ERROR: wrong amount of history arguments')
         raise ValueError('Введите команду history с указанием количества последних введённых команд')

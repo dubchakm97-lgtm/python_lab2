@@ -7,6 +7,11 @@ SHELL_FILE = Path(__file__).resolve().parents[1] / 'shell.log'
 TRASH_DIR = Path("/Users/aleksandr/Desktop/python_lab2/.trash")
 
 def undo() -> None:
+    """
+    Отменяет действие команды из списка cp, mv, rm
+    :param: None
+    :return: None
+    """
     control_str = ""
     with SHELL_FILE.open("r", encoding="utf-8") as s:
         lines = s.readlines()

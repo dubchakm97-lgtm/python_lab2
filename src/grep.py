@@ -3,6 +3,11 @@ from pathlib import Path
 
 
 def grep(args: list[str]) -> None:
+    """
+    Поиск строки по содержимому файла/файлов папки
+    :param args: искомая строка/подстрока, название файла/папки с файлами
+    :return: None
+    """
     if '-i' not in args and '-r' not in args and '-ri' not in args:
         if len(args) != 2:
             log_message('ERROR: inappropriate amount of grep arguments')
