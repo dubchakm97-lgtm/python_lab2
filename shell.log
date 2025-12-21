@@ -22060,3 +22060,56 @@
 [2025-12-20 18:29:59] INFO ls 
 [2025-12-20 18:30:09] INFO rm '__init__.py' from '/Users/aleksandr/Downloads/python_lab2-main/src'
 [2025-12-20 18:30:12] INFO Undo rm __init__.py -> /Users/aleksandr/Downloads/python_lab2-main/src
+[2025-12-21 20:33:36] INFO zip <Mock id='4400632832'> -> <Mock id='4400635520'>
+[2025-12-21 20:33:36] WARNING zip: not enough arguments
+[2025-12-21 20:33:36] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-21 20:33:36] WARNING zip: inappropriate extension (not .zip)
+[2025-12-21 20:33:36] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-21 20:33:36] INFO unzip <Mock id='4400635520'>
+[2025-12-21 20:33:36] WARNING unzip: inappropriate number of arguments
+[2025-12-21 20:33:36] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-21 20:33:36] WARNING unzip: zip archive does not exist
+[2025-12-21 20:33:36] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-21 20:33:36] INFO tar <Mock id='4402151840'> -> <Mock id='4402154192'>
+[2025-12-21 20:33:36] WARNING tar: not enough arguments
+[2025-12-21 20:33:36] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-21 20:33:36] WARNING tar: inappropriate name for tar.gz file
+[2025-12-21 20:33:36] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-21 20:33:36] INFO untar <Mock id='4400634848'>
+[2025-12-21 20:33:36] WARNING untar: inappropriate number of arguments
+[2025-12-21 20:33:36] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-21 20:33:36] WARNING untar: tar archive does not exist
+[2025-12-21 20:33:36] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-21 20:33:36] WARNING cd — not a directory (/file.txt)
+[2025-12-21 20:33:36] ERROR cd failed (Это не директория)
+[2025-12-21 20:33:36] INFO cp '<Mock id='4402382224'>' '<Mock id='4402383232'>'
+[2025-12-21 20:33:36] INFO cp '<Mock id='4402385920'>' '<Mock id='4402387600'>'
+[2025-12-21 20:33:36] WARNING cp — source not found (<Mock id='4402390288'>)
+[2025-12-21 20:33:36] ERROR cp failed (Источник не найден!)
+[2025-12-21 20:33:36] WARNING cp — use -r to copy folder
+[2025-12-21 20:33:36] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-21 20:33:36] INFO cp -r '<Mock id='4402394656'>' '<Mock id='4402394320'>'
+[2025-12-21 20:33:36] WARNING cp — not enough arguments
+[2025-12-21 20:33:36] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-21 20:33:36] INFO one
+[2025-12-21 20:33:36] INFO first
+[2025-12-21 20:33:36] INFO second
+[2025-12-21 20:33:36] INFO привет
+[2025-12-21 20:33:37] ERROR unknown command kanye
+[2025-12-21 20:33:37] ERROR 
+[2025-12-21 20:33:37] INFO mv '/work/a.txt' '/work/b.txt'
+[2025-12-21 20:33:37] INFO mv '/work/a.txt' '/work/dir'
+[2025-12-21 20:33:37] WARNING mv — missing arguments
+[2025-12-21 20:33:37] ERROR mv failed (Укажите исходный и целевой путь!)
+[2025-12-21 20:33:37] WARNING rm — forbidden path (/)
+[2025-12-21 20:33:37] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-21 20:33:37] WARNING rm — forbidden path (/)
+[2025-12-21 20:33:37] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-21 20:34:24] INFO ls 
+[2025-12-21 20:34:29] INFO ls main.py
+[2025-12-21 20:34:36] INFO ls main.py log.py
+[2025-12-21 20:34:59] WARNING ls — path not found (mad)
+[2025-12-21 20:34:59] INFO ls mad
+[2025-12-21 20:36:19] INFO ls 
+[2025-12-21 20:36:22] INFO ls main.py
+[2025-12-21 20:36:27] INFO ls main.py log.py

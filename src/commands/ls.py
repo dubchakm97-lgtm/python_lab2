@@ -55,8 +55,8 @@ def ls(args: list[str]) -> None:
                 print(f"ls: cannot access '{path}': No such file or directory")
                 continue
 
-            if multi:
-                print(f"{path}:")
+            # if multi:
+            #     print(f"{path}:")
 
             if os.path.isfile(path):
                 mark = "@" if has_xattr(path, ext) else ""
@@ -85,8 +85,8 @@ def ls(args: list[str]) -> None:
                     else:
                         print(f"{item}{mark}")
 
-            if multi:
-                print()
+            # if multi:
+            #     print()
 
         log_message(f"ls {' '.join(args)}", logging.INFO)
 
