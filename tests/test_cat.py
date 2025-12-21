@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import Mock, patch, mock_open
-import src.cat as mod_cat
+import src.commands.cat as mod_cat
 import os
 
 class TestCat:

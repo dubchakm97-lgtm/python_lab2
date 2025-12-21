@@ -1,15 +1,36 @@
-import datetime
-from pathlib import Path
+import logging
+from src.constants import LOG_FILE
 
-LOG_FILE = Path(__file__).resolve().parents[1] / "shell.log"
+_logger: logging.Logger | None = None
 
 
-def log_message(text: str) -> None:
+def _get_logger() -> logging.Logger:
+    global _logger
+    if _logger is not None:
+        return _logger
+
+    logger = logging.getLogger("shell")
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
+    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    if not any(isinstance(h, logging.FileHandler) for h in logger.handlers):
+        handler = logging.FileHandler(LOG_FILE, encoding="utf-8", delay=False)
+        formatter = logging.Formatter(
+            fmt="%(asctime)s %(levelname)s %(message)s",
+            datefmt="[%Y-%m-%d %H:%M:%S]",
+        )
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
+
+    _logger = logger
+    return logger
+
+def log_message(text: str, level: int = logging.INFO) -> None:
     """
     Добавляет запись исполнения команды или ошибки в журнал shell.log
     :param text: запись команды/ошибки
     :return: None
     """
-    now = datetime.datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
-    with LOG_FILE.open("a", encoding="utf-8") as f:
-        f.write(f"{now} {text}\n")
+    logger = _get_logger()
+    logger.log(level, text)

@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import Mock, patch
-import src.cp as mod_cp
+import src.commands.cp as mod_cp
 
 class TestCp:
     def test_cp_file_file(self):

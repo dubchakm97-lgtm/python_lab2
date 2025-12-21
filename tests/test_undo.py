@@ -1,7 +1,7 @@
 import pytest
-from unittest.mock import Mock, MagicMock, patch, mock_open
+from unittest.mock import Mock, patch, mock_open
 from pathlib import Path
-import src.command_undo as mod_undo
+import src.commands.command_undo as mod_undo
 
 class TestUndo:
     def _make_log(self, lines: list[str]):

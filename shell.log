@@ -21926,3 +21926,137 @@
 [2025-11-27 21:22:38] ls 
 [2025-11-27 21:22:50] rm 'nasty.html' from '/Users/aleksandr/Desktop'
 [2025-11-27 21:22:53] Undo rm nasty.html -> /Users/aleksandr/Desktop
+[2025-12-20 14:52:44] ls 
+[2025-12-20 14:52:46] cd
+[2025-12-20 14:52:46] cd /Users/aleksandr
+[2025-12-20 14:52:49] cd Desktop
+[2025-12-20 14:52:51] ls 
+[2025-12-20 14:52:55] cd ..
+[2025-12-20 14:58:07] cd ..
+[2025-12-20 14:58:15] cd
+[2025-12-20 14:58:15] cd /Users/aleksandr
+[2025-12-20 14:58:22] cd DEsktop
+[2025-12-20 14:59:16] cd ..
+[2025-12-20 15:27:17] ERROR: path not found (-a)
+[2025-12-20 15:27:17] ERROR: ls failed (Такой папки не существует)
+[2025-12-20 15:27:31] ERROR: path not found (-ae)
+[2025-12-20 15:27:31] ERROR: ls failed (Такой папки не существует)
+[2025-12-20 17:07:31] ERROR: unknown command ды
+[2025-12-20 17:07:33] ls 
+[2025-12-20 17:15:40] ls
+[2025-12-20 17:17:22] INFO ls
+[2025-12-20 17:18:19] INFO ls
+[2025-12-20 17:18:20] INFO cd ..
+[2025-12-20 17:18:45] ERROR ERROR: unknown command ды
+[2025-12-20 17:22:23] INFO ls
+[2025-12-20 17:22:26] INFO ls -l
+[2025-12-20 17:22:28] ERROR ERROR: unknown command -l
+[2025-12-20 17:22:32] INFO ls -a
+[2025-12-20 17:22:38] INFO ls -la
+[2025-12-20 17:23:37] INFO unknown command fr
+[2025-12-20 17:47:07] INFO unknown command rx
+[2025-12-20 17:47:47] WARNING WARNING: no command was there
+[2025-12-20 17:50:19] WARNING no command was there
+[2025-12-20 17:50:33] INFO ls 
+[2025-12-20 17:50:39] INFO unknown command ды
+[2025-12-20 17:53:39] WARNING no command was there
+[2025-12-20 17:53:44] ERROR unknown command fdv
+[2025-12-20 17:53:49] INFO ls 
+[2025-12-20 17:54:46] INFO one
+[2025-12-20 17:54:46] INFO first
+[2025-12-20 17:54:46] INFO second
+[2025-12-20 17:54:46] INFO привет
+[2025-12-20 17:55:04] INFO zip <Mock id='4404236976'> -> <Mock id='4404239664'>
+[2025-12-20 17:55:04] INFO not enough arguments
+[2025-12-20 17:55:04] INFO zip – exception error Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>"
+[2025-12-20 17:55:04] INFO inappropriate extension for zip file
+[2025-12-20 17:55:04] INFO zip – exception error Введите имя архива в кавычках с расширением .zip
+[2025-12-20 17:55:04] INFO unzip <Mock id='4404241680'>
+[2025-12-20 17:55:04] INFO inappropriate number of unzip arguments
+[2025-12-20 17:55:04] INFO something went wrong
+[2025-12-20 17:55:04] INFO zip archive does not exist
+[2025-12-20 17:55:04] INFO something went wrong
+[2025-12-20 17:55:04] INFO tar <Mock id='4404247056'> -> <Mock id='4404240000'>
+[2025-12-20 17:55:04] INFO not enough arguments
+[2025-12-20 17:55:04] INFO tar – exception error Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>"
+[2025-12-20 17:55:04] INFO inappropriate name for tar.gz file
+[2025-12-20 17:55:04] INFO tar – exception error Укажите верное имя для архива папки
+[2025-12-20 17:55:04] INFO untar <Mock id='4404237648'>
+[2025-12-20 17:55:04] INFO inappropriate number of untar arguments
+[2025-12-20 17:55:04] INFO something went wrong
+[2025-12-20 17:55:04] INFO tar archive does not exist
+[2025-12-20 17:55:04] INFO something went wrong
+[2025-12-20 17:55:05] INFO not a directory (/file.txt)
+[2025-12-20 17:55:05] INFO cd failed (Это не директория)
+[2025-12-20 17:55:05] INFO cp '<Mock id='4404244368'>' '<Mock id='4404242688'>'
+[2025-12-20 17:55:05] INFO cp '<Mock id='4405349744'>' '<Mock id='4405348064'>'
+[2025-12-20 17:55:05] INFO cp — source not found (<Mock id='4405354784'>)
+[2025-12-20 17:55:05] INFO cp failed (Источник не найден!)
+[2025-12-20 17:55:05] INFO use -r to copy folder
+[2025-12-20 17:55:05] INFO cp failed (Используйте -r для копирования папки)
+[2025-12-20 17:55:05] INFO cp -r '<Mock id='4405347392'>' '<Mock id='4405346384'>'
+[2025-12-20 17:55:05] INFO cp — not enough arguments
+[2025-12-20 17:55:05] INFO cp failed (Нужно указать источник и назначение)
+[2025-12-20 17:55:05] INFO one
+[2025-12-20 17:55:05] INFO first
+[2025-12-20 17:55:05] INFO second
+[2025-12-20 17:55:05] INFO привет
+[2025-12-20 17:55:05] ERROR unknown command kanye
+[2025-12-20 17:55:05] ERROR 
+[2025-12-20 17:55:05] INFO mv '/work/a.txt' '/work/b.txt'
+[2025-12-20 17:55:05] INFO mv '/work/a.txt' '/work/dir'
+[2025-12-20 17:55:05] INFO mv — missing arguments
+[2025-12-20 17:55:05] INFO mv failed (Укажите исходный и целевой путь!)
+[2025-12-20 17:55:06] INFO impossible to remove (/)
+[2025-12-20 17:55:06] INFO rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-20 17:55:06] INFO impossible to remove (/)
+[2025-12-20 17:55:06] INFO rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-20 18:10:28] INFO cd ..
+[2025-12-20 18:10:29] INFO cd ..
+[2025-12-20 18:10:33] INFO cd ..
+[2025-12-20 18:10:37] INFO cd Desktop
+[2025-12-20 18:10:39] INFO ls 
+[2025-12-20 18:10:48] INFO cp '/Users/aleksandr/Desktop/шо.jpg' '/Users/aleksandr/Desktop/ye'
+[2025-12-20 18:11:14] ERROR undo rm failed (Destination path '/Users/aleksandr/Desktop/nasty.html' already exists)
+[2025-12-20 18:17:09] INFO ls 
+[2025-12-20 18:17:15] INFO cd ..
+[2025-12-20 18:17:16] INFO cd ..
+[2025-12-20 18:17:18] INFO ls 
+[2025-12-20 18:17:29] INFO cd ..
+[2025-12-20 18:17:32] INFO cd Desktop
+[2025-12-20 18:17:34] INFO ls 
+[2025-12-20 18:17:52] INFO cp '/Users/aleksandr/Desktop/шо.jpg' '/Users/aleksandr/Desktop/r'
+[2025-12-20 18:18:05] INFO Undo cp remove /Users/aleksandr/Desktop/r
+[2025-12-20 18:18:18] INFO cp '/Users/aleksandr/Desktop/шо.jpg' '/Users/aleksandr/Desktop/r.png'
+[2025-12-20 18:19:38] INFO mv '/Users/aleksandr/Desktop/шо.jpg' '/Users/aleksandr/Desktop/ye'
+[2025-12-20 18:19:50] INFO Undo mv /Users/aleksandr/Desktop/ye -> /Users/aleksandr/Desktop/шо.jpg
+[2025-12-20 18:19:55] INFO rm 'шо.jpg' from '/Users/aleksandr/Desktop'
+[2025-12-20 18:19:57] ERROR undo rm failed ([Errno 20] Not a directory: '/Users/aleksandr/Desktop/python_lab2/.trash/шо.jpg')
+[2025-12-20 18:21:24] WARNING rm — path not found (шо.jpg)
+[2025-12-20 18:21:24] ERROR rm failed (Такого файла/каталога не существует!)
+[2025-12-20 18:21:28] INFO ls 
+[2025-12-20 18:21:35] INFO rm 'црфе.jpg' from '/Users/aleksandr/Desktop'
+[2025-12-20 18:21:37] ERROR undo rm failed ([Errno 20] Not a directory: '/Users/aleksandr/Desktop/python_lab2/.trash/црфе.jpg')
+[2025-12-20 18:22:34] INFO ls 
+[2025-12-20 18:22:37] INFO cd ..
+[2025-12-20 18:22:40] INFO cd ..
+[2025-12-20 18:22:44] INFO cd ..
+[2025-12-20 18:22:46] INFO cd Desktop
+[2025-12-20 18:22:48] INFO ls 
+[2025-12-20 18:23:13] INFO rm 'сфера2.jpg' from '/Users/aleksandr/Desktop'
+[2025-12-20 18:23:16] ERROR undo rm failed ([Errno 20] Not a directory: '/Users/aleksandr/Downloads/python_lab2-main/.trash/сфера2.jpg')
+[2025-12-20 18:24:26] INFO cd
+[2025-12-20 18:24:26] INFO cd /Users/aleksandr
+[2025-12-20 18:24:29] INFO cd Downloads
+[2025-12-20 18:24:31] INFO ls 
+[2025-12-20 18:24:36] INFO rm 'студчек.pptx' from '/Users/aleksandr/Downloads'
+[2025-12-20 18:24:39] ERROR undo rm failed ([Errno 20] Not a directory: '/Users/aleksandr/Downloads/python_lab2-main/trash/студчек.pptx')
+[2025-12-20 18:25:23] INFO cd
+[2025-12-20 18:25:23] INFO cd /Users/aleksandr
+[2025-12-20 18:25:28] INFO cd Downloads
+[2025-12-20 18:25:33] INFO ls 
+[2025-12-20 18:25:38] INFO rm 'проверка1.docx' from '/Users/aleksandr/Downloads'
+[2025-12-20 18:25:45] INFO Undo rm проверка1.docx -> /Users/aleksandr/Downloads
+[2025-12-20 18:29:59] INFO ls 
+[2025-12-20 18:30:09] INFO rm '__init__.py' from '/Users/aleksandr/Downloads/python_lab2-main/src'
+[2025-12-20 18:30:12] INFO Undo rm __init__.py -> /Users/aleksandr/Downloads/python_lab2-main/src

@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import Mock, patch
-import src.ls as mod_ls
+import src.commands.ls as mod_ls
 import os
 import datetime
 

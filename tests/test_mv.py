@@ -1,7 +1,7 @@
 import os
 import pytest
 from unittest.mock import Mock, patch
-import src.mv as mod_mv
+import src.commands.mv as mod_mv
 
 class TestMv:
     def setup_method(self):

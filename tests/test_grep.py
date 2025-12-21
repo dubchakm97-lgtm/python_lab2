@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import Mock, MagicMock, patch
-import src.grep as mod_grep
+import src.commands.grep as mod_grep
 
 
 class TestGrep:
@@ -86,7 +86,6 @@ class TestGrep:
         with patch.object(mod_grep, "Path", return_value=root), \
              patch.object(mod_grep, "log_message") as m_log, \
              patch("builtins.print") as m_print:
-
             mod_grep.grep(["foo", "folder", "-r"])
 
         printed = [" ".join(map(str, c.args)) for c in m_print.call_args_list]

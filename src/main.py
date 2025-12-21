@@ -1,19 +1,20 @@
-from ls import ls
-from cd import cd
-from cat import cat
-from cp import cp
-from mv import mv
-from rm import rm
-from log import log_message
+import os
 from pathlib import Path
-from history import history
-from command_undo import undo
-from archives import zip_folder, unzip_file, tar_folder, untar_file
+from commands.ls import ls
+from commands.cd import cd
+from commands.cat import cat
+from commands.cp import cp
+from commands.mv import mv
+from commands.rm import rm
+from log import log_message
+from commands.history import history
+from commands.command_undo import undo
+from commands.archives import zip_folder, unzip_file, tar_folder, untar_file
 import shlex
-from grep import grep
+from commands.grep import grep
+from constants import HISTORY_FILE
+import logging
 
-
-HISTORY_FILE = Path(__file__).resolve().parents[1] / '.history.txt'
 
 def main() -> None:
     """
@@ -27,7 +28,7 @@ def main() -> None:
                 if len(row) != 0:
                     count_of_commands = ''
                     for alp in lines[-1]:
-                        if alp.isdigit()==True:
+                        if alp.isdigit() == True:
                             count_of_commands += alp
                         else:
                             break
@@ -36,13 +37,13 @@ def main() -> None:
             else:
                 count_of_commands = 1
         try:
-            line = input('$ ')
+            line = input(f"{Path(os.getcwd()).name} $ ")
             parts = line.split()
             if len(parts) == 0:
                 print('Введите команду')
-                log_message('ERROR: no command was there')
+                log_message("no command was there", logging.WARNING)
                 with HISTORY_FILE.open('a', encoding='utf-8') as h:
-                    h.write(f'{count_of_commands}: *no command*\n')
+                    h.write(f"{count_of_commands}: *no command*\n")
                 continue
             main_p = parts[0]
             args = parts[1:]
@@ -75,12 +76,14 @@ def main() -> None:
             elif main_p in ['exit', "quit"]:
                 break
             else:
-                log_message(f'ERROR: unknown command {main_p}')
+                log_message(f"unknown command {main_p}", logging.ERROR)
                 print(f"Неизвестная команда {main_p}")
             with HISTORY_FILE.open('a', encoding='utf-8') as h:
-                h.write(f'{count_of_commands}: {main_p} {shlex.split(' '.join(args))}\n')
-        except (FileNotFoundError, NotADirectoryError, IsADirectoryError, PermissionError, ValueError, OSError, Exception) as e:
+                h.write(f"{count_of_commands}: {main_p} {shlex.split(' '.join(args))}\n")
+        except (FileNotFoundError, NotADirectoryError, IsADirectoryError, PermissionError, ValueError, OSError,
+                Exception) as e:
             print(f'Ошибка! {e}')
+            log_message(str(e), logging.ERROR)
 
 
 if __name__ == '__main__':

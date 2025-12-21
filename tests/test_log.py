@@ -1,5 +1,5 @@
 import log
-from log import log_message
+from src.log import log_message
 
 class TestLog:
     def test_log_writes(self):

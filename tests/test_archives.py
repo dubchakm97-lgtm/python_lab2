@@ -2,7 +2,7 @@ import pytest
 from unittest.mock import Mock, patch, MagicMock
 import zipfile
 import tarfile
-import src.archives as mod_arc
+import src.commands.archives as mod_arc
 
 class TestFolder:
     def test_zip_folder_success(self):
