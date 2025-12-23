@@ -5,6 +5,10 @@ _logger = None
 
 
 def _get_logger() -> logging.Logger:
+    """
+    создает логгер, если ранее не был создан
+    :return: logging.Logger
+    """
     global _logger
     if _logger is not None:
         return _logger

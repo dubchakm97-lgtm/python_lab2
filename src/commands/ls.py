@@ -5,6 +5,12 @@ from src.log import log_message
 
 
 def has_xattr(p: str, ext: int) -> bool:
+    """
+    Проверяет наличие расширенных атрибутов
+    :param p: путь к файлу/папке
+    :param ext: наличие флага "-е"
+    :return: True or False
+    """
     if ext == 0:
         return False
     try:
