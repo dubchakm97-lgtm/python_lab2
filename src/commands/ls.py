@@ -19,7 +19,7 @@ def ls(args: list[str]) -> None:
     Флаги:
     -l - подробный вывод
     -a - показывать скрытые (начинаются с '.')
-    -e - показывать индикатор расширенных атрибутов (@) если есть
+    -e - показывать индикатор расширенных атрибутов @ если есть
     Поддерживаются комбинации: -le, -ae, -lae, -a, -e, -l, -la.
     При нескольких путях выводит каждый.
     """
@@ -47,16 +47,12 @@ def ls(args: list[str]) -> None:
 
         if not paths:
             paths = ["."]
-        multi = len(paths) > 1
 
         for path in paths:
             if not os.path.exists(path):
                 log_message(f"ls — path not found ({path})", logging.WARNING)
                 print(f"ls: cannot access '{path}': No such file or directory")
                 continue
-
-            # if multi:
-            #     print(f"{path}:")
 
             if os.path.isfile(path):
                 mark = "@" if has_xattr(path, ext) else ""
@@ -84,9 +80,6 @@ def ls(args: list[str]) -> None:
                         print(f"{item}{mark}\t{size} bytes\t{mtime}")
                     else:
                         print(f"{item}{mark}")
-
-            # if multi:
-            #     print()
 
         log_message(f"ls {' '.join(args)}", logging.INFO)
 

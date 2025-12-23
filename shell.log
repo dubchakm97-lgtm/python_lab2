@@ -22113,3 +22113,612 @@
 [2025-12-21 20:36:19] INFO ls 
 [2025-12-21 20:36:22] INFO ls main.py
 [2025-12-21 20:36:27] INFO ls main.py log.py
+[2025-12-22 18:17:55] INFO cd ..
+[2025-12-22 18:18:03] INFO cd .
+[2025-12-22 18:18:06] INFO cd ..
+[2025-12-22 18:18:11] INFO ls 
+[2025-12-22 18:19:02] INFO cp '/Users/aleksandr/Desktop/сфера1.jpg' '/Users/aleksandr/Desktop/fake'
+[2025-12-22 18:31:14] INFO cd ..
+[2025-12-22 18:31:16] INFO cd ..
+[2025-12-22 18:31:39] INFO ls 
+[2025-12-22 18:32:17] INFO cp '/Users/aleksandr/Desktop/сфера1.jpg' '/Users/aleksandr/Desktop/fake'
+[2025-12-22 18:36:21] INFO ls 
+[2025-12-22 18:36:35] INFO cp '/Users/aleksandr/Desktop/сфера1.jpg' '/Users/aleksandr/Desktop/GGG'
+[2025-12-22 18:37:58] INFO cp '/Users/aleksandr/Desktop/сфера1.jpg' '/Users/aleksandr/Desktop/fAkE'
+[2025-12-22 18:38:09] INFO cp '/Users/aleksandr/Desktop/сфера1.jpg' '/Users/aleksandr/Desktop/QQQ'
+[2025-12-22 18:40:03] ERROR unknown command sl
+[2025-12-22 18:40:04] INFO ls 
+[2025-12-22 18:40:20] WARNING zip: not enough arguments
+[2025-12-22 18:40:20] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-22 18:40:32] WARNING zip: path is not existing directory
+[2025-12-22 18:40:32] ERROR zip: exception (Такой папки не существует)
+[2025-12-22 18:41:06] INFO ls 
+[2025-12-22 18:41:15] WARNING zip: inappropriate name for zip file
+[2025-12-22 18:41:15] ERROR zip: exception (Укажите верное имя для архива папки)
+[2025-12-22 18:41:29] WARNING zip: inappropriate name for zip file
+[2025-12-22 18:41:29] ERROR zip: exception (Укажите верное имя для архива папки)
+[2025-12-22 18:41:42] INFO zip _test_ -> WWW.zip
+[2025-12-22 18:42:33] WARNING unzip: zip archive does not exist
+[2025-12-22 18:42:33] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-22 18:42:41] INFO unzip WWW.zip
+[2025-12-22 18:43:17] INFO ls 
+[2025-12-22 18:43:26] INFO unzip WWW.zip
+[2025-12-22 18:56:58] INFO zip _test_ -> SSS.zip
+[2025-12-22 18:57:06] WARNING unzip: zip archive does not exist
+[2025-12-22 18:57:06] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-22 18:57:11] WARNING unzip: zip archive does not exist
+[2025-12-22 18:57:11] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-22 18:57:16] INFO unzip SSS.zip
+[2025-12-22 18:57:33] INFO zip _test_ -> ORG.zip
+[2025-12-22 18:57:43] INFO unzip ORG.zip
+[2025-12-22 18:59:04] WARNING zip: not enough arguments
+[2025-12-22 18:59:04] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-22 18:59:22] INFO zip DESKTop p -> E.zip
+[2025-12-22 19:00:02] WARNING zip: path is not existing directory
+[2025-12-22 19:00:02] ERROR zip: exception (Такой папки не существует)
+[2025-12-22 19:02:28] INFO zip t1 -> t2.zip
+[2025-12-23 01:07:22] INFO zip <Mock id='4402877440'> -> <Mock id='4402880128'>
+[2025-12-23 01:07:22] WARNING zip: not enough arguments
+[2025-12-23 01:07:22] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 01:07:22] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 01:07:22] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 01:07:22] INFO unzip <Mock id='4402880128'>
+[2025-12-23 01:07:22] WARNING unzip: inappropriate number of arguments
+[2025-12-23 01:07:22] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 01:07:22] WARNING unzip: zip archive does not exist
+[2025-12-23 01:07:22] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:07:23] INFO tar <Mock id='4404396448'> -> <Mock id='4404398800'>
+[2025-12-23 01:07:23] WARNING tar: not enough arguments
+[2025-12-23 01:07:23] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 01:07:23] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 01:07:23] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 01:07:23] INFO untar <Mock id='4402879456'>
+[2025-12-23 01:07:23] WARNING untar: inappropriate number of arguments
+[2025-12-23 01:07:23] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 01:07:23] WARNING untar: tar archive does not exist
+[2025-12-23 01:07:23] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:07:23] WARNING cd — not a directory (/file.txt)
+[2025-12-23 01:07:23] ERROR cd failed (Это не директория)
+[2025-12-23 01:07:23] INFO cp '<Mock id='4405101968'>' '<Mock id='4405102976'>'
+[2025-12-23 01:07:23] INFO cp '<Mock id='4405105664'>' '<Mock id='4405107344'>'
+[2025-12-23 01:07:23] WARNING cp — source not found (<Mock id='4405110032'>)
+[2025-12-23 01:07:23] ERROR cp failed (Источник не найден!)
+[2025-12-23 01:07:23] WARNING cp — use -r to copy folder
+[2025-12-23 01:07:23] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 01:07:23] INFO cp -r '<Mock id='4405114400'>' '<Mock id='4405114064'>'
+[2025-12-23 01:07:23] WARNING cp — not enough arguments
+[2025-12-23 01:07:23] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 01:07:23] INFO one
+[2025-12-23 01:07:23] INFO first
+[2025-12-23 01:07:23] INFO second
+[2025-12-23 01:07:23] INFO привет
+[2025-12-23 01:07:23] ERROR unknown command kanye
+[2025-12-23 01:07:23] ERROR 
+[2025-12-23 01:07:23] INFO mv '/work/a.txt' '/work/b.txt'
+[2025-12-23 01:07:23] INFO mv '/work/a.txt' '/work/dir'
+[2025-12-23 01:07:24] WARNING mv — missing arguments
+[2025-12-23 01:07:24] ERROR mv failed (Укажите исходный и целевой путь!)
+[2025-12-23 01:07:24] WARNING rm — forbidden path (/)
+[2025-12-23 01:07:24] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-23 01:07:24] WARNING rm — forbidden path (/)
+[2025-12-23 01:07:24] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-23 01:43:29] WARNING ls — path not found (/missing)
+[2025-12-23 01:43:29] INFO ls /missing
+[2025-12-23 01:43:29] INFO ls /FUTURE/a.txt
+[2025-12-23 01:43:29] INFO ls /dir
+[2025-12-23 01:43:29] INFO ls -l /dir
+[2025-12-23 01:43:29] INFO ls -l
+[2025-12-23 01:44:35] INFO cd /correct_dir
+[2025-12-23 01:44:35] WARNING cd — not a directory (/file.txt)
+[2025-12-23 01:44:35] ERROR cd failed (Это не директория)
+[2025-12-23 01:44:35] WARNING cd — path not found (/yeezy)
+[2025-12-23 01:44:35] ERROR cd failed (Такой папки не существует)
+[2025-12-23 01:44:35] INFO cd
+[2025-12-23 01:44:35] INFO cd /home
+[2025-12-23 01:46:23] INFO mv '/work/a.txt' '/work/b.txt'
+[2025-12-23 01:46:23] INFO mv '/work/a.txt' '/work/dir'
+[2025-12-23 01:46:23] WARNING mv — source not found (/work/a.txt)
+[2025-12-23 01:46:23] ERROR mv failed (Исходный файл или папка не найдены!)
+[2025-12-23 01:46:23] WARNING mv — missing arguments
+[2025-12-23 01:46:23] ERROR mv failed (Укажите исходный и целевой путь!)
+[2025-12-23 01:46:23] WARNING mv — missing arguments
+[2025-12-23 01:46:23] ERROR mv failed (Укажите исходный и целевой путь!)
+[2025-12-23 01:48:40] INFO rm '/ye.txt' from '/'
+[2025-12-23 01:48:40] INFO rm /kanye.txt — canceled by user
+[2025-12-23 01:48:40] WARNING rm — directory without -r (/dir)
+[2025-12-23 01:48:40] ERROR rm failed (Это папка, для удаления используйте -r.)
+[2025-12-23 01:48:40] INFO rm -r '/dir' from '/'
+[2025-12-23 01:48:40] INFO rm -r /dir — canceled by user
+[2025-12-23 01:48:40] WARNING rm — path not found (/nope)
+[2025-12-23 01:48:40] ERROR rm failed (Такого файла/каталога не существует!)
+[2025-12-23 01:48:40] WARNING rm — forbidden path (/)
+[2025-12-23 01:48:40] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-23 01:48:40] WARNING rm — forbidden path (/)
+[2025-12-23 01:48:40] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-23 01:48:52] INFO zip <Mock id='4400585696'> -> <Mock id='4400588720'>
+[2025-12-23 01:48:52] WARNING zip: not enough arguments
+[2025-12-23 01:48:52] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 01:48:52] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 01:48:52] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 01:48:52] INFO unzip <Mock id='4400591744'>
+[2025-12-23 01:48:52] WARNING unzip: inappropriate number of arguments
+[2025-12-23 01:48:52] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 01:48:52] WARNING unzip: zip archive does not exist
+[2025-12-23 01:48:52] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:48:52] INFO tar <Mock id='4400589056'> -> <Mock id='4402271232'>
+[2025-12-23 01:48:52] WARNING tar: not enough arguments
+[2025-12-23 01:48:52] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 01:48:52] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 01:48:52] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 01:48:52] INFO untar <Mock id='4400590736'>
+[2025-12-23 01:48:52] WARNING untar: inappropriate number of arguments
+[2025-12-23 01:48:52] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 01:48:52] WARNING untar: tar archive does not exist
+[2025-12-23 01:48:52] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:53:18] INFO zip <Mock id='4476407488'> -> <Mock id='4476413200'>
+[2025-12-23 01:53:18] WARNING zip: not enough arguments
+[2025-12-23 01:53:18] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 01:53:18] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 01:53:18] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 01:53:18] INFO unzip <Mock id='4476414880'>
+[2025-12-23 01:53:18] WARNING unzip: inappropriate number of arguments
+[2025-12-23 01:53:18] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 01:53:18] WARNING unzip: inappropriate number of arguments
+[2025-12-23 01:53:18] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 01:53:18] WARNING unzip: zip archive does not exist
+[2025-12-23 01:53:18] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:53:18] INFO tar <Mock id='4478078320'> -> <Mock id='4476412192'>
+[2025-12-23 01:53:18] WARNING tar: not enough arguments
+[2025-12-23 01:53:18] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 01:53:18] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 01:53:18] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 01:53:18] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 01:53:18] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 01:53:18] INFO untar <Mock id='4478075632'>
+[2025-12-23 01:53:18] WARNING untar: inappropriate number of arguments
+[2025-12-23 01:53:18] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 01:53:18] WARNING untar: inappropriate number of arguments
+[2025-12-23 01:53:18] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 01:53:18] WARNING untar: tar archive does not exist
+[2025-12-23 01:53:18] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:54:53] INFO zip <Mock id='4410003136'> -> <Mock id='4410008848'>
+[2025-12-23 01:54:53] WARNING zip: not enough arguments
+[2025-12-23 01:54:53] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 01:54:53] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 01:54:53] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 01:54:53] INFO unzip <Mock id='4410010528'>
+[2025-12-23 01:54:53] WARNING unzip: inappropriate number of arguments
+[2025-12-23 01:54:53] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 01:54:53] WARNING unzip: inappropriate number of arguments
+[2025-12-23 01:54:53] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 01:54:53] WARNING unzip: zip archive does not exist
+[2025-12-23 01:54:53] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:54:53] INFO tar <Mock id='4411821424'> -> <Mock id='4410007840'>
+[2025-12-23 01:54:53] WARNING tar: not enough arguments
+[2025-12-23 01:54:53] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 01:54:53] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 01:54:53] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 01:54:53] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 01:54:53] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 01:54:53] INFO untar <Mock id='4411818736'>
+[2025-12-23 01:54:53] WARNING untar: inappropriate number of arguments
+[2025-12-23 01:54:53] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 01:54:53] WARNING untar: inappropriate number of arguments
+[2025-12-23 01:54:53] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 01:54:53] WARNING untar: tar archive does not exist
+[2025-12-23 01:54:53] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 01:55:02] INFO cp '<Mock id='4442558480'>' '<Mock id='4442560160'>'
+[2025-12-23 01:55:02] INFO cp '<Mock id='4442561168'>' '<Mock id='4442564864'>'
+[2025-12-23 01:55:02] WARNING cp — source not found (<Mock id='4442567552'>)
+[2025-12-23 01:55:02] ERROR cp failed (Источник не найден!)
+[2025-12-23 01:55:02] WARNING cp — use -r to copy folder
+[2025-12-23 01:55:02] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 01:55:02] INFO cp -r '<Mock id='4444034048'>' '<Mock id='4444035728'>'
+[2025-12-23 01:55:02] WARNING cp — not enough arguments
+[2025-12-23 01:55:02] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 01:57:17] INFO cp '<Mock id='4466741264'>' '<Mock id='4466742944'>'
+[2025-12-23 01:57:17] WARNING cp — source not found (<Mock id='4466749664'>)
+[2025-12-23 01:57:17] ERROR cp failed (Источник не найден!)
+[2025-12-23 01:57:17] WARNING cp — use -r to copy folder
+[2025-12-23 01:57:17] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 01:57:17] INFO cp -r '<Mock id='4468726080'>' '<Mock id='4468727760'>'
+[2025-12-23 01:57:17] WARNING cp — not enough arguments
+[2025-12-23 01:57:17] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 01:57:54] INFO cp '<Mock id='4479127568'>' '<Mock id='4479129248'>'
+[2025-12-23 01:57:54] INFO cp '<Mock id='4479130592'>' '<Mock id='4479134288'>'
+[2025-12-23 01:57:54] WARNING cp — source not found (<Mock id='4479137312'>)
+[2025-12-23 01:57:54] ERROR cp failed (Источник не найден!)
+[2025-12-23 01:57:54] WARNING cp — use -r to copy folder
+[2025-12-23 01:57:54] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 01:57:54] INFO cp -r '<Mock id='4479137312'>' '<Mock id='4479137648'>'
+[2025-12-23 01:57:54] WARNING cp — not enough arguments
+[2025-12-23 01:57:54] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 01:58:02] INFO cp '<Mock id='4403531792'>' '<Mock id='4403533472'>'
+[2025-12-23 01:58:02] INFO cp '<Mock id='4403534816'>' '<Mock id='4403538512'>'
+[2025-12-23 01:58:02] WARNING cp — source not found (<Mock id='4403541536'>)
+[2025-12-23 01:58:02] ERROR cp failed (Источник не найден!)
+[2025-12-23 01:58:02] WARNING cp — use -r to copy folder
+[2025-12-23 01:58:02] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 01:58:02] INFO cp -r '<Mock id='4403541536'>' '<Mock id='4403541872'>'
+[2025-12-23 01:58:02] WARNING cp — not enough arguments
+[2025-12-23 01:58:02] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 02:00:19] INFO one
+[2025-12-23 02:00:19] INFO first
+[2025-12-23 02:00:19] INFO second
+[2025-12-23 02:00:19] INFO привет
+[2025-12-23 02:03:50] INFO zip <Mock id='4480667328'> -> <Mock id='4480673040'>
+[2025-12-23 02:03:50] WARNING zip: not enough arguments
+[2025-12-23 02:03:50] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 02:03:50] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 02:03:50] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 02:03:50] INFO unzip <Mock id='4480674720'>
+[2025-12-23 02:03:50] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:03:50] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:03:50] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:03:50] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:03:50] WARNING unzip: zip archive does not exist
+[2025-12-23 02:03:50] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:03:50] INFO tar <Mock id='4482338160'> -> <Mock id='4480672032'>
+[2025-12-23 02:03:50] WARNING tar: not enough arguments
+[2025-12-23 02:03:50] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 02:03:50] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 02:03:50] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 02:03:50] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 02:03:50] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 02:03:50] INFO untar <Mock id='4482335472'>
+[2025-12-23 02:03:50] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:03:50] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:03:50] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:03:50] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:03:50] WARNING untar: tar archive does not exist
+[2025-12-23 02:03:50] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:10:58] INFO zip <Mock id='4439363936'> -> <Mock id='4439366624'>
+[2025-12-23 02:10:58] WARNING zip: not enough arguments
+[2025-12-23 02:10:58] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 02:10:58] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 02:10:58] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 02:10:58] INFO unzip <Mock id='4439368304'>
+[2025-12-23 02:10:58] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:10:58] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:10:58] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:10:58] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:10:58] WARNING unzip: zip archive does not exist
+[2025-12-23 02:10:58] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:10:58] INFO tar <Mock id='4440605760'> -> <Mock id='4439375024'>
+[2025-12-23 02:10:58] WARNING tar: not enough arguments
+[2025-12-23 02:10:58] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 02:10:58] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 02:10:58] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 02:10:58] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 02:10:58] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 02:10:58] INFO untar <Mock id='4440605088'>
+[2025-12-23 02:10:58] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:10:58] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:10:58] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:10:58] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:10:58] WARNING untar: tar archive does not exist
+[2025-12-23 02:10:58] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:10:58] INFO cat /file.txt
+[2025-12-23 02:10:58] WARNING cat — file not found (/missing.txt)
+[2025-12-23 02:10:58] ERROR cat failed (Такого файла не существует!)
+[2025-12-23 02:10:58] WARNING cat — no file specified
+[2025-12-23 02:10:58] ERROR cat failed (Не указан файл!)
+[2025-12-23 02:10:58] WARNING cat — not a file (/some_ye)
+[2025-12-23 02:10:58] ERROR cat failed (Это не файл!)
+[2025-12-23 02:10:58] INFO cd /correct_dir
+[2025-12-23 02:10:58] WARNING cd — not a directory (/file.txt)
+[2025-12-23 02:10:58] ERROR cd failed (Это не директория)
+[2025-12-23 02:10:58] WARNING cd — path not found (/yeezy)
+[2025-12-23 02:10:58] ERROR cd failed (Такой папки не существует)
+[2025-12-23 02:10:58] INFO cd
+[2025-12-23 02:10:58] INFO cd /home
+[2025-12-23 02:10:58] INFO cp '<Mock id='4439364944'>' '<Mock id='4440613824'>'
+[2025-12-23 02:10:58] INFO cp '<Mock id='4440617856'>' '<Mock id='4440619536'>'
+[2025-12-23 02:10:58] WARNING cp — source not found (<Mock id='4440786656'>)
+[2025-12-23 02:10:58] ERROR cp failed (Источник не найден!)
+[2025-12-23 02:10:58] WARNING cp — use -r to copy folder
+[2025-12-23 02:10:58] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 02:10:58] INFO cp -r '<Mock id='4440613488'>' '<Mock id='4439375024'>'
+[2025-12-23 02:10:58] WARNING cp — not enough arguments
+[2025-12-23 02:10:58] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 02:10:58] WARNING ls — path not found (/missing)
+[2025-12-23 02:10:58] INFO ls /missing
+[2025-12-23 02:10:58] INFO ls /FUTURE/a.txt
+[2025-12-23 02:10:58] INFO ls /dir
+[2025-12-23 02:10:58] INFO ls -l /dir
+[2025-12-23 02:10:58] INFO ls -l
+[2025-12-23 02:10:58] ERROR unknown command kanye
+[2025-12-23 02:10:58] ERROR dir
+[2025-12-23 02:10:58] INFO mv '/work/a.txt' '/work/b.txt'
+[2025-12-23 02:10:58] INFO mv '/work/a.txt' '/work/dir'
+[2025-12-23 02:10:58] WARNING mv — source not found (/work/a.txt)
+[2025-12-23 02:10:58] ERROR mv failed (Исходный файл или папка не найдены!)
+[2025-12-23 02:10:58] WARNING mv — missing arguments
+[2025-12-23 02:10:58] ERROR mv failed (Укажите исходный и целевой путь!)
+[2025-12-23 02:10:58] WARNING mv — missing arguments
+[2025-12-23 02:10:58] ERROR mv failed (Укажите исходный и целевой путь!)
+[2025-12-23 02:10:58] INFO rm '/ye.txt' from '/'
+[2025-12-23 02:10:58] INFO rm /kanye.txt — canceled by user
+[2025-12-23 02:10:58] WARNING rm — directory without -r (/dir)
+[2025-12-23 02:10:58] ERROR rm failed (Это папка, для удаления используйте -r.)
+[2025-12-23 02:10:58] INFO rm -r '/dir' from '/'
+[2025-12-23 02:10:58] INFO rm -r /dir — canceled by user
+[2025-12-23 02:10:58] WARNING rm — path not found (/nope)
+[2025-12-23 02:10:58] ERROR rm failed (Такого файла/каталога не существует!)
+[2025-12-23 02:10:58] WARNING rm — forbidden path (/)
+[2025-12-23 02:10:58] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-23 02:10:58] WARNING rm — forbidden path (/)
+[2025-12-23 02:10:58] ERROR rm failed (Удаление корневого/родительского каталога запрещено!)
+[2025-12-23 02:21:36] INFO one
+[2025-12-23 02:21:36] INFO first
+[2025-12-23 02:21:36] INFO second
+[2025-12-23 02:21:36] INFO привет
+[2025-12-23 02:25:17] INFO zip <Mock id='4466856288'> -> <Mock id='4466858976'>
+[2025-12-23 02:25:17] WARNING zip: not enough arguments
+[2025-12-23 02:25:17] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 02:25:17] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 02:25:17] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 02:25:17] INFO unzip <Mock id='4468147936'>
+[2025-12-23 02:25:17] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:25:17] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:25:17] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:25:17] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:25:17] WARNING unzip: zip archive does not exist
+[2025-12-23 02:25:17] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:25:17] INFO tar <Mock id='4466863344'> -> <Mock id='4466862336'>
+[2025-12-23 02:25:17] WARNING tar: not enough arguments
+[2025-12-23 02:25:17] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 02:25:17] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 02:25:17] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 02:25:17] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 02:25:17] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 02:25:17] INFO untar <Mock id='4466860992'>
+[2025-12-23 02:25:17] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:25:17] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:25:17] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:25:17] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:25:17] WARNING untar: tar archive does not exist
+[2025-12-23 02:25:17] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:25:17] INFO cat /file.txt
+[2025-12-23 02:25:17] WARNING cat — file not found (/missing.txt)
+[2025-12-23 02:25:17] ERROR cat failed (Такого файла не существует!)
+[2025-12-23 02:25:17] WARNING cat — no file specified
+[2025-12-23 02:25:17] ERROR cat failed (Не указан файл!)
+[2025-12-23 02:25:17] WARNING cat — not a file (/some_ye)
+[2025-12-23 02:25:17] ERROR cat failed (Это не файл!)
+[2025-12-23 02:25:17] INFO cd /correct_dir
+[2025-12-23 02:25:17] WARNING cd — not a directory (/file.txt)
+[2025-12-23 02:25:17] ERROR cd failed (Это не директория)
+[2025-12-23 02:25:17] WARNING cd — path not found (/yeezy)
+[2025-12-23 02:25:17] ERROR cd failed (Такой папки не существует)
+[2025-12-23 02:25:17] INFO cd
+[2025-12-23 02:25:17] INFO cd /home
+[2025-12-23 02:25:17] INFO cp '<Mock id='4466866032'>' '<Mock id='4466858640'>'
+[2025-12-23 02:25:17] INFO cp '<Mock id='4466862000'>' '<Mock id='4466856288'>'
+[2025-12-23 02:25:17] WARNING cp — source not found (<Mock id='4466859984'>)
+[2025-12-23 02:25:17] ERROR cp failed (Источник не найден!)
+[2025-12-23 02:25:17] WARNING cp — use -r to copy folder
+[2025-12-23 02:25:17] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 02:25:17] INFO cp -r '<Mock id='4466859984'>' '<Mock id='4466862000'>'
+[2025-12-23 02:25:17] WARNING cp — not enough arguments
+[2025-12-23 02:25:17] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 02:27:24] INFO ls 
+[2025-12-23 02:27:31] INFO ls log.py main.py
+[2025-12-23 02:34:22] INFO zip <Mock id='4474851680'> -> <Mock id='4474854368'>
+[2025-12-23 02:34:22] WARNING zip: not enough arguments
+[2025-12-23 02:34:22] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 02:34:22] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 02:34:22] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 02:34:22] INFO unzip <Mock id='4474856384'>
+[2025-12-23 02:34:22] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:34:22] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:34:22] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:34:22] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:34:22] WARNING unzip: zip archive does not exist
+[2025-12-23 02:34:22] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:34:22] INFO tar <Mock id='4474862096'> -> <Mock id='4474852016'>
+[2025-12-23 02:34:22] WARNING tar: not enough arguments
+[2025-12-23 02:34:22] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 02:34:22] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 02:34:22] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 02:34:22] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 02:34:22] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 02:34:22] INFO untar <Mock id='4474858736'>
+[2025-12-23 02:34:22] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:34:22] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:34:22] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:34:22] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:34:22] WARNING untar: tar archive does not exist
+[2025-12-23 02:34:22] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:34:22] INFO cat /file.txt
+[2025-12-23 02:34:22] WARNING cat — file not found (/missing.txt)
+[2025-12-23 02:34:22] ERROR cat failed (Такого файла не существует!)
+[2025-12-23 02:34:22] WARNING cat — no file specified
+[2025-12-23 02:34:22] ERROR cat failed (Не указан файл!)
+[2025-12-23 02:34:22] WARNING cat — not a file (/some_ye)
+[2025-12-23 02:34:22] ERROR cat failed (Это не файл!)
+[2025-12-23 02:34:22] INFO cd /correct_dir
+[2025-12-23 02:34:22] WARNING cd — not a directory (/file.txt)
+[2025-12-23 02:34:22] ERROR cd failed (Это не директория)
+[2025-12-23 02:34:22] WARNING cd — path not found (/yeezy)
+[2025-12-23 02:34:22] ERROR cd failed (Такой папки не существует)
+[2025-12-23 02:34:22] INFO cd
+[2025-12-23 02:34:22] INFO cd /home
+[2025-12-23 02:34:22] INFO cp '<Mock id='4474855040'>' '<Mock id='4476357664'>'
+[2025-12-23 02:34:22] INFO cp '<Mock id='4476363040'>' '<Mock id='4476364720'>'
+[2025-12-23 02:34:22] WARNING cp — source not found (<Mock id='4474855040'>)
+[2025-12-23 02:34:22] ERROR cp failed (Источник не найден!)
+[2025-12-23 02:34:22] WARNING cp — use -r to copy folder
+[2025-12-23 02:34:22] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 02:34:22] INFO cp -r '<Mock id='4476368752'>' '<Mock id='4476370432'>'
+[2025-12-23 02:34:22] WARNING cp — not enough arguments
+[2025-12-23 02:34:22] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 02:44:19] INFO zip <Mock id='4448571744'> -> <Mock id='4448574432'>
+[2025-12-23 02:44:19] WARNING zip: not enough arguments
+[2025-12-23 02:44:19] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 02:44:19] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 02:44:19] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 02:44:19] INFO unzip <Mock id='4448576448'>
+[2025-12-23 02:44:19] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:44:19] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:44:19] WARNING unzip: inappropriate number of arguments
+[2025-12-23 02:44:19] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 02:44:19] WARNING unzip: zip archive does not exist
+[2025-12-23 02:44:19] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:44:19] INFO tar <Mock id='4448582160'> -> <Mock id='4448572080'>
+[2025-12-23 02:44:19] WARNING tar: not enough arguments
+[2025-12-23 02:44:19] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 02:44:19] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 02:44:19] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 02:44:19] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 02:44:19] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 02:44:19] INFO untar <Mock id='4448578800'>
+[2025-12-23 02:44:19] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:44:19] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:44:19] WARNING untar: inappropriate number of arguments
+[2025-12-23 02:44:19] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 02:44:19] WARNING untar: tar archive does not exist
+[2025-12-23 02:44:19] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 02:44:19] INFO cat /file.txt
+[2025-12-23 02:44:19] WARNING cat — file not found (/missing.txt)
+[2025-12-23 02:44:19] ERROR cat failed (Такого файла не существует!)
+[2025-12-23 02:44:19] WARNING cat — no file specified
+[2025-12-23 02:44:19] ERROR cat failed (Не указан файл!)
+[2025-12-23 02:44:19] WARNING cat — not a file (/some_ye)
+[2025-12-23 02:44:19] ERROR cat failed (Это не файл!)
+[2025-12-23 02:44:19] INFO cd /correct_dir
+[2025-12-23 02:44:19] WARNING cd — not a directory (/file.txt)
+[2025-12-23 02:44:19] ERROR cd failed (Это не директория)
+[2025-12-23 02:44:19] WARNING cd — path not found (/yeezy)
+[2025-12-23 02:44:19] ERROR cd failed (Такой папки не существует)
+[2025-12-23 02:44:19] INFO cd
+[2025-12-23 02:44:19] INFO cd /home
+[2025-12-23 02:44:19] INFO cp '<Mock id='4448575104'>' '<Mock id='4450077728'>'
+[2025-12-23 02:44:19] INFO cp '<Mock id='4450083104'>' '<Mock id='4450084784'>'
+[2025-12-23 02:44:19] WARNING cp — source not found (<Mock id='4448575104'>)
+[2025-12-23 02:44:19] ERROR cp failed (Источник не найден!)
+[2025-12-23 02:44:19] WARNING cp — use -r to copy folder
+[2025-12-23 02:44:19] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 02:44:19] INFO cp -r '<Mock id='4450088816'>' '<Mock id='4450090496'>'
+[2025-12-23 02:44:19] WARNING cp — not enough arguments
+[2025-12-23 02:44:19] ERROR cp failed (Нужно указать источник и назначение)
+[2025-12-23 03:06:50] INFO history 1
+[2025-12-23 03:06:56] WARNING history — not enough lines in history file
+[2025-12-23 03:06:56] WARNING history — wrong amount/type of arguments
+[2025-12-23 03:08:38] INFO history 5
+[2025-12-23 03:09:21] ERROR unknown command hisory
+[2025-12-23 03:09:25] WARNING history — not enough lines in history file
+[2025-12-23 03:09:25] WARNING history — wrong amount/type of arguments
+[2025-12-23 03:30:01] INFO zip <Mock id='4467199680'> -> <Mock id='4467205392'>
+[2025-12-23 03:30:01] WARNING zip: not enough arguments
+[2025-12-23 03:30:01] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 03:30:01] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 03:30:01] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 03:30:01] INFO unzip <Mock id='4467207072'>
+[2025-12-23 03:30:01] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:30:01] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:30:01] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:30:01] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:30:01] WARNING unzip: zip archive does not exist
+[2025-12-23 03:30:01] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:30:01] INFO tar <Mock id='4468870512'> -> <Mock id='4467204384'>
+[2025-12-23 03:30:01] WARNING tar: not enough arguments
+[2025-12-23 03:30:01] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 03:30:01] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 03:30:01] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 03:30:01] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 03:30:01] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 03:30:01] INFO untar <Mock id='4468867824'>
+[2025-12-23 03:30:01] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:30:01] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:30:01] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:30:01] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:30:01] WARNING untar: tar archive does not exist
+[2025-12-23 03:30:01] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:35:19] INFO zip <Mock id='4447276736'> -> <Mock id='4447282448'>
+[2025-12-23 03:35:19] WARNING zip: not enough arguments
+[2025-12-23 03:35:19] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 03:35:19] WARNING zip: inappropriate extension (not .zip)
+[2025-12-23 03:35:19] ERROR zip: exception (Введите имя архива в кавычках с расширением .zip)
+[2025-12-23 03:35:19] INFO unzip <Mock id='4447284128'>
+[2025-12-23 03:35:19] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:35:19] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:35:19] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:35:19] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:35:19] WARNING unzip: zip archive does not exist
+[2025-12-23 03:35:19] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:35:19] INFO tar <Mock id='4448947568'> -> <Mock id='4447281440'>
+[2025-12-23 03:35:19] WARNING tar: not enough arguments
+[2025-12-23 03:35:19] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 03:35:19] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 03:35:19] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 03:35:19] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 03:35:19] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 03:35:19] INFO untar <Mock id='4448944880'>
+[2025-12-23 03:35:19] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:35:19] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:35:19] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:35:19] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:35:19] WARNING untar: tar archive does not exist
+[2025-12-23 03:35:19] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:39:16] INFO zip <Mock id='4470214336'> -> <Mock id='4470220048'>
+[2025-12-23 03:39:17] WARNING zip: not enough arguments
+[2025-12-23 03:39:17] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 03:39:17] WARNING zip: inappropriate name for zip file
+[2025-12-23 03:39:17] ERROR zip: exception (Укажите верное имя для архива папки)
+[2025-12-23 03:39:17] INFO unzip <Mock id='4470218704'>
+[2025-12-23 03:39:17] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:39:17] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:39:17] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:39:17] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:39:17] WARNING unzip: zip archive does not exist
+[2025-12-23 03:39:17] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:39:17] INFO tar <Mock id='4471883488'> -> <Mock id='4471885840'>
+[2025-12-23 03:39:17] WARNING tar: not enough arguments
+[2025-12-23 03:39:17] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 03:39:17] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 03:39:17] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 03:39:17] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 03:39:17] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 03:39:17] INFO untar <Mock id='4470222736'>
+[2025-12-23 03:39:17] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:39:17] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:39:17] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:39:17] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:39:17] WARNING untar: tar archive does not exist
+[2025-12-23 03:39:17] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:40:49] INFO zip <Mock id='4397993664'> -> <Mock id='4397999376'>
+[2025-12-23 03:40:49] WARNING zip: not enough arguments
+[2025-12-23 03:40:49] ERROR zip: exception (Нужно указать папку и имя архива: zip "<folder>" "<archive.zip>")
+[2025-12-23 03:40:49] WARNING zip: inappropriate name for zip file
+[2025-12-23 03:40:49] ERROR zip: exception (Укажите верное имя для архива папки)
+[2025-12-23 03:40:49] INFO unzip <Mock id='4397998032'>
+[2025-12-23 03:40:49] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:40:49] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:40:49] WARNING unzip: inappropriate number of arguments
+[2025-12-23 03:40:49] ERROR unzip: exception (В качестве аргумента к команде unzip укажите только файл для разархивирования)
+[2025-12-23 03:40:49] WARNING unzip: zip archive does not exist
+[2025-12-23 03:40:49] ERROR unzip: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:40:49] INFO tar <Mock id='4399662816'> -> <Mock id='4399665168'>
+[2025-12-23 03:40:49] WARNING tar: not enough arguments
+[2025-12-23 03:40:49] ERROR tar: exception (Нужно указать папку и имя архива: tar "<folder>" "<archive.tar.gz>")
+[2025-12-23 03:40:49] WARNING tar: inappropriate name for tar.gz file
+[2025-12-23 03:40:49] ERROR tar: exception (Укажите верное имя для архива папки)
+[2025-12-23 03:40:49] WARNING tar: inappropriate extension (not .tar.gz)
+[2025-12-23 03:40:49] ERROR tar: exception (Введите имя архива в кавычках с расширением .tar.gz)
+[2025-12-23 03:40:49] INFO untar <Mock id='4398002064'>
+[2025-12-23 03:40:49] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:40:49] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:40:49] WARNING untar: inappropriate number of arguments
+[2025-12-23 03:40:49] ERROR untar: exception (В качестве аргумента к команде untar укажите только файл для разархивирования)
+[2025-12-23 03:40:49] WARNING untar: tar archive does not exist
+[2025-12-23 03:40:49] ERROR untar: exception (В текущем каталоге такого архива не существует)
+[2025-12-23 03:54:03] INFO cp '<Mock id='4409004048'>' '<Mock id='4409005728'>'
+[2025-12-23 03:54:03] INFO cp '<Mock id='4409009088'>' '<Mock id='4409010768'>'
+[2025-12-23 03:54:03] WARNING cp — source not found (<Mock id='4409013792'>)
+[2025-12-23 03:54:03] ERROR cp failed (Источник не найден!)
+[2025-12-23 03:54:03] WARNING cp — use -r to copy folder
+[2025-12-23 03:54:03] ERROR cp failed (Используйте -r для копирования папки)
+[2025-12-23 03:54:03] INFO cp -r '<Mock id='4409013792'>' '<Mock id='4409014128'>'
+[2025-12-23 03:54:03] WARNING cp — not enough arguments
+[2025-12-23 03:54:03] ERROR cp failed (Нужно указать источник и назначение)

@@ -1,4 +1,3 @@
-import pytest
 from unittest.mock import Mock, patch, mock_open
 from pathlib import Path
 import src.commands.command_undo as mod_undo
@@ -20,7 +19,7 @@ class TestUndo:
             mod_undo.undo()
         assert any("Нет команд для отката" in " ".join(map(str, c.args))
                    for c in m_print.call_args_list)
-        m_log.assert_any_call("No rm/mv/cp commands to undo")
+        m_log.assert_any_call("No rm/mv/cp commands to undo", mod_undo.logging.WARNING)
 
     def test_undo_rm_success(self):
         lines = ["[2025-11-27 10:00] some other command", "[2025-11-27 10:01] rm '/file.txt' from '/original/dir'"]
@@ -43,6 +42,7 @@ class TestUndo:
         fake_shell_file = self._make_log(lines)
         src_path = Mock()
         src_path.expanduser.return_value = src_path
+        src_path.is_dir.return_value = False
 
         dst_path = Mock()
         dst_path.expanduser.return_value = dst_path

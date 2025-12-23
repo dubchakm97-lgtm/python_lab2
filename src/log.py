@@ -1,7 +1,7 @@
 import logging
 from src.constants import LOG_FILE
 
-_logger: logging.Logger | None = None
+_logger = None
 
 
 def _get_logger() -> logging.Logger:
@@ -11,7 +11,6 @@ def _get_logger() -> logging.Logger:
 
     logger = logging.getLogger("shell")
     logger.setLevel(logging.INFO)
-    logger.propagate = False
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     if not any(isinstance(h, logging.FileHandler) for h in logger.handlers):

@@ -82,7 +82,6 @@ def main() -> None:
                 h.write(f"{count_of_commands}: {main_p} {shlex.split(' '.join(args))}\n")
         except (FileNotFoundError, NotADirectoryError, IsADirectoryError, PermissionError, ValueError, OSError,
                 Exception) as e:
-            print(f'Ошибка! {e}')
             log_message(str(e), logging.ERROR)
 
 

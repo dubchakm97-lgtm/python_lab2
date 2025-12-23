@@ -38,4 +38,5 @@ def history(args: list[str]) -> None:
 
     except ValueError:
         log_message("history — wrong amount/type of arguments", logging.WARNING)
-        print('Введите команду history с указанием количества последних введённых команд')
+        print(
+            'Введите команду history с указанием количества последних введённых команд, не превышающего количество ранее введенных команд')
